@@ -1,0 +1,952 @@
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.32KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.32KiB n=32768 logn=15 min_construction_time_ms=0 max_construction_time_ms=0 avg_construction_time_ms=0 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.32KiB n=32768 logn=15 min_construction_time_ms=4 max_construction_time_ms=6 avg_construction_time_ms=4.6 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.32KiB n=32768 logn=15 min_construction_time_ms=1 max_construction_time_ms=2 avg_construction_time_ms=1.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.64KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.64KiB n=65536 logn=16 min_construction_time_ms=0 max_construction_time_ms=0 avg_construction_time_ms=0 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.64KiB n=65536 logn=16 min_construction_time_ms=6 max_construction_time_ms=7 avg_construction_time_ms=6.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.64KiB n=65536 logn=16 min_construction_time_ms=3 max_construction_time_ms=3 avg_construction_time_ms=3 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.128KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.128KiB n=131072 logn=17 min_construction_time_ms=1 max_construction_time_ms=1 avg_construction_time_ms=1 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.128KiB n=131072 logn=17 min_construction_time_ms=10 max_construction_time_ms=12 avg_construction_time_ms=10.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.128KiB n=131072 logn=17 min_construction_time_ms=5 max_construction_time_ms=5 avg_construction_time_ms=5 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.256KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.256KiB n=262144 logn=18 min_construction_time_ms=3 max_construction_time_ms=3 avg_construction_time_ms=3 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.256KiB n=262144 logn=18 min_construction_time_ms=19 max_construction_time_ms=20 avg_construction_time_ms=19.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.256KiB n=262144 logn=18 min_construction_time_ms=10 max_construction_time_ms=11 avg_construction_time_ms=10.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.1MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.1MiB n=1048576 logn=20 min_construction_time_ms=12 max_construction_time_ms=12 avg_construction_time_ms=12 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.1MiB n=1048576 logn=20 min_construction_time_ms=72 max_construction_time_ms=73 avg_construction_time_ms=72.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.1MiB n=1048576 logn=20 min_construction_time_ms=43 max_construction_time_ms=44 avg_construction_time_ms=43.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.4MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.4MiB n=4194304 logn=22 min_construction_time_ms=48 max_construction_time_ms=50 avg_construction_time_ms=49 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.4MiB n=4194304 logn=22 min_construction_time_ms=273 max_construction_time_ms=274 avg_construction_time_ms=273.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.4MiB n=4194304 logn=22 min_construction_time_ms=179 max_construction_time_ms=180 avg_construction_time_ms=179.8 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.8MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.8MiB n=8388608 logn=23 min_construction_time_ms=123 max_construction_time_ms=124 avg_construction_time_ms=123.8 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.8MiB n=8388608 logn=23 min_construction_time_ms=590 max_construction_time_ms=888 avg_construction_time_ms=655.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.8MiB n=8388608 logn=23 min_construction_time_ms=368 max_construction_time_ms=372 avg_construction_time_ms=369.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.16MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.16MiB n=16777216 logn=24 min_construction_time_ms=247 max_construction_time_ms=252 avg_construction_time_ms=248.6 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.16MiB n=16777216 logn=24 min_construction_time_ms=1200 max_construction_time_ms=2037 avg_construction_time_ms=1381.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.16MiB n=16777216 logn=24 min_construction_time_ms=743 max_construction_time_ms=744 avg_construction_time_ms=743.8 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.32MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.32MiB n=33554432 logn=25 min_construction_time_ms=495 max_construction_time_ms=499 avg_construction_time_ms=496.4 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.32MiB n=33554432 logn=25 min_construction_time_ms=2558 max_construction_time_ms=3924 avg_construction_time_ms=3145 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.32MiB n=33554432 logn=25 min_construction_time_ms=1462 max_construction_time_ms=1472 avg_construction_time_ms=1465.4 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.64MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.64MiB n=67108864 logn=26 min_construction_time_ms=988 max_construction_time_ms=994 avg_construction_time_ms=991 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.64MiB n=67108864 logn=26 min_construction_time_ms=5191 max_construction_time_ms=6602 avg_construction_time_ms=5807.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.64MiB n=67108864 logn=26 min_construction_time_ms=2945 max_construction_time_ms=2952 avg_construction_time_ms=2947 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.128MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.128MiB n=134217728 logn=27 min_construction_time_ms=1981 max_construction_time_ms=1986 avg_construction_time_ms=1983.2 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.128MiB n=134217728 logn=27 min_construction_time_ms=10795 max_construction_time_ms=11174 avg_construction_time_ms=10903.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.128MiB n=134217728 logn=27 min_construction_time_ms=5901 max_construction_time_ms=6004 avg_construction_time_ms=5924.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.256MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.256MiB n=268435456 logn=28 min_construction_time_ms=3959 max_construction_time_ms=3974 avg_construction_time_ms=3966.4 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.256MiB n=268435456 logn=28 min_construction_time_ms=21936 max_construction_time_ms=23577 avg_construction_time_ms=22869 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.256MiB n=268435456 logn=28 min_construction_time_ms=11796 max_construction_time_ms=11803 avg_construction_time_ms=11799.8 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.512MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.512MiB n=536870912 logn=29 min_construction_time_ms=7923 max_construction_time_ms=7944 avg_construction_time_ms=7929.2 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.512MiB n=536870912 logn=29 min_construction_time_ms=42963 max_construction_time_ms=45948 avg_construction_time_ms=44505.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.512MiB n=536870912 logn=29 min_construction_time_ms=23489 max_construction_time_ms=23537 avg_construction_time_ms=23502.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.1GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.1GiB n=1073741824 logn=30 min_construction_time_ms=15890 max_construction_time_ms=15906 avg_construction_time_ms=15895.6 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.1GiB n=1073741824 logn=30 min_construction_time_ms=84000 max_construction_time_ms=89274 avg_construction_time_ms=86569.6 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.1GiB n=1073741824 logn=30 min_construction_time_ms=47066 max_construction_time_ms=47078 avg_construction_time_ms=47072.4 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.2GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.2GiB n=2147483648 logn=31 min_construction_time_ms=31672 max_construction_time_ms=31700 avg_construction_time_ms=31690 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.2GiB n=2147483648 logn=31 min_construction_time_ms=155726 max_construction_time_ms=176517 avg_construction_time_ms=164824 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.2GiB n=2147483648 logn=31 min_construction_time_ms=94185 max_construction_time_ms=94323 avg_construction_time_ms=94221.6 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.4GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.4GiB n=4294967296 logn=32 min_construction_time_ms=63382 max_construction_time_ms=63497 avg_construction_time_ms=63418 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.4GiB n=4294967296 logn=32 min_construction_time_ms=344493 max_construction_time_ms=372224 avg_construction_time_ms=361605 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.4GiB n=4294967296 logn=32 min_construction_time_ms=191555 max_construction_time_ms=192153 avg_construction_time_ms=191722 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/english/big_english.8GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/english/big_english.8GiB n=8589934592 logn=33 min_construction_time_ms=126508 max_construction_time_ms=126621 avg_construction_time_ms=126561 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/english/big_english.8GiB n=8589934592 logn=33 min_construction_time_ms=582050 max_construction_time_ms=586080 avg_construction_time_ms=584726 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/english/big_english.8GiB n=8589934592 logn=33 min_construction_time_ms=383288 max_construction_time_ms=383769 avg_construction_time_ms=383552 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.32KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.32KiB n=32768 logn=15 min_construction_time_ms=0 max_construction_time_ms=0 avg_construction_time_ms=0 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.32KiB n=32768 logn=15 min_construction_time_ms=3 max_construction_time_ms=5 avg_construction_time_ms=3.8 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.32KiB n=32768 logn=15 min_construction_time_ms=1 max_construction_time_ms=1 avg_construction_time_ms=1 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.64KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.64KiB n=65536 logn=16 min_construction_time_ms=0 max_construction_time_ms=0 avg_construction_time_ms=0 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.64KiB n=65536 logn=16 min_construction_time_ms=6 max_construction_time_ms=7 avg_construction_time_ms=6.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.64KiB n=65536 logn=16 min_construction_time_ms=3 max_construction_time_ms=3 avg_construction_time_ms=3 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.128KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.128KiB n=131072 logn=17 min_construction_time_ms=1 max_construction_time_ms=1 avg_construction_time_ms=1 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.128KiB n=131072 logn=17 min_construction_time_ms=10 max_construction_time_ms=11 avg_construction_time_ms=10.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.128KiB n=131072 logn=17 min_construction_time_ms=5 max_construction_time_ms=6 avg_construction_time_ms=5.6 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.256KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.256KiB n=262144 logn=18 min_construction_time_ms=3 max_construction_time_ms=3 avg_construction_time_ms=3 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.256KiB n=262144 logn=18 min_construction_time_ms=18 max_construction_time_ms=83 avg_construction_time_ms=36.6 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.256KiB n=262144 logn=18 min_construction_time_ms=11 max_construction_time_ms=12 avg_construction_time_ms=11.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.1MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.1MiB n=1048576 logn=20 min_construction_time_ms=15 max_construction_time_ms=15 avg_construction_time_ms=15 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.1MiB n=1048576 logn=20 min_construction_time_ms=72 max_construction_time_ms=73 avg_construction_time_ms=72.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.1MiB n=1048576 logn=20 min_construction_time_ms=47 max_construction_time_ms=47 avg_construction_time_ms=47 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.4MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.4MiB n=4194304 logn=22 min_construction_time_ms=62 max_construction_time_ms=62 avg_construction_time_ms=62 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.4MiB n=4194304 logn=22 min_construction_time_ms=290 max_construction_time_ms=291 avg_construction_time_ms=290.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.4MiB n=4194304 logn=22 min_construction_time_ms=188 max_construction_time_ms=188 avg_construction_time_ms=188 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.8MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.8MiB n=8388608 logn=23 min_construction_time_ms=124 max_construction_time_ms=125 avg_construction_time_ms=124.6 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.8MiB n=8388608 logn=23 min_construction_time_ms=584 max_construction_time_ms=611 avg_construction_time_ms=591.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.8MiB n=8388608 logn=23 min_construction_time_ms=376 max_construction_time_ms=377 avg_construction_time_ms=376.4 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.16MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.16MiB n=16777216 logn=24 min_construction_time_ms=253 max_construction_time_ms=255 avg_construction_time_ms=253.6 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.16MiB n=16777216 logn=24 min_construction_time_ms=1217 max_construction_time_ms=2106 avg_construction_time_ms=1408.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.16MiB n=16777216 logn=24 min_construction_time_ms=737 max_construction_time_ms=739 avg_construction_time_ms=738 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.32MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.32MiB n=33554432 logn=25 min_construction_time_ms=504 max_construction_time_ms=513 avg_construction_time_ms=506.8 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.32MiB n=33554432 logn=25 min_construction_time_ms=2623 max_construction_time_ms=3147 avg_construction_time_ms=2886 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.32MiB n=33554432 logn=25 min_construction_time_ms=1467 max_construction_time_ms=1478 avg_construction_time_ms=1470.4 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.64MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.64MiB n=67108864 logn=26 min_construction_time_ms=1014 max_construction_time_ms=1031 avg_construction_time_ms=1021 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.64MiB n=67108864 logn=26 min_construction_time_ms=5291 max_construction_time_ms=5532 avg_construction_time_ms=5376.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.64MiB n=67108864 logn=26 min_construction_time_ms=2946 max_construction_time_ms=2954 avg_construction_time_ms=2948 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.128MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.128MiB n=134217728 logn=27 min_construction_time_ms=2025 max_construction_time_ms=2031 avg_construction_time_ms=2028 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.128MiB n=134217728 logn=27 min_construction_time_ms=10605 max_construction_time_ms=11372 avg_construction_time_ms=10904.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.128MiB n=134217728 logn=27 min_construction_time_ms=5915 max_construction_time_ms=5941 avg_construction_time_ms=5928.4 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.256MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.256MiB n=268435456 logn=28 min_construction_time_ms=3989 max_construction_time_ms=4012 avg_construction_time_ms=4003.8 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.256MiB n=268435456 logn=28 min_construction_time_ms=24209 max_construction_time_ms=25605 avg_construction_time_ms=24672.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.256MiB n=268435456 logn=28 min_construction_time_ms=11779 max_construction_time_ms=11804 avg_construction_time_ms=11786 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.512MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.512MiB n=536870912 logn=29 min_construction_time_ms=8086 max_construction_time_ms=8130 avg_construction_time_ms=8108.4 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.512MiB n=536870912 logn=29 min_construction_time_ms=46523 max_construction_time_ms=53356 avg_construction_time_ms=50689.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.512MiB n=536870912 logn=29 min_construction_time_ms=24299 max_construction_time_ms=24325 avg_construction_time_ms=24314 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.1GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.1GiB n=1073741824 logn=30 min_construction_time_ms=16248 max_construction_time_ms=16281 avg_construction_time_ms=16267 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.1GiB n=1073741824 logn=30 min_construction_time_ms=92762 max_construction_time_ms=96877 avg_construction_time_ms=95038 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.1GiB n=1073741824 logn=30 min_construction_time_ms=47311 max_construction_time_ms=47750 avg_construction_time_ms=47408.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.2GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.2GiB n=2147483648 logn=31 min_construction_time_ms=32642 max_construction_time_ms=32660 avg_construction_time_ms=32653.4 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.2GiB n=2147483648 logn=31 min_construction_time_ms=181041 max_construction_time_ms=194975 avg_construction_time_ms=188415 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.2GiB n=2147483648 logn=31 min_construction_time_ms=92999 max_construction_time_ms=93197 avg_construction_time_ms=93089.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.4GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.4GiB n=4294967296 logn=32 min_construction_time_ms=65212 max_construction_time_ms=65276 avg_construction_time_ms=65236.6 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.4GiB n=4294967296 logn=32 min_construction_time_ms=405682 max_construction_time_ms=447236 avg_construction_time_ms=432997 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.4GiB n=4294967296 logn=32 min_construction_time_ms=191794 max_construction_time_ms=192070 avg_construction_time_ms=191928 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/sources/sources.8GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/sources/sources.8GiB n=8589934592 logn=33 min_construction_time_ms=130520 max_construction_time_ms=130623 avg_construction_time_ms=130558 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/sources/sources.8GiB n=8589934592 logn=33 min_construction_time_ms=607903 max_construction_time_ms=627976 avg_construction_time_ms=615904 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/sources/sources.8GiB n=8589934592 logn=33 min_construction_time_ms=382442 max_construction_time_ms=384201 avg_construction_time_ms=383295 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.32KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.32KiB n=32768 logn=15 min_construction_time_ms=0 max_construction_time_ms=0 avg_construction_time_ms=0 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.32KiB n=32768 logn=15 min_construction_time_ms=2 max_construction_time_ms=14 avg_construction_time_ms=4.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.32KiB n=32768 logn=15 min_construction_time_ms=2 max_construction_time_ms=2 avg_construction_time_ms=2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.64KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.64KiB n=65536 logn=16 min_construction_time_ms=0 max_construction_time_ms=0 avg_construction_time_ms=0 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.64KiB n=65536 logn=16 min_construction_time_ms=2 max_construction_time_ms=20 avg_construction_time_ms=5.6 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.64KiB n=65536 logn=16 min_construction_time_ms=2 max_construction_time_ms=2 avg_construction_time_ms=2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.128KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.128KiB n=131072 logn=17 min_construction_time_ms=0 max_construction_time_ms=0 avg_construction_time_ms=0 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.128KiB n=131072 logn=17 min_construction_time_ms=3 max_construction_time_ms=11 avg_construction_time_ms=4.6 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.128KiB n=131072 logn=17 min_construction_time_ms=3 max_construction_time_ms=4 avg_construction_time_ms=3.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.256KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.256KiB n=262144 logn=18 min_construction_time_ms=0 max_construction_time_ms=0 avg_construction_time_ms=0 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.256KiB n=262144 logn=18 min_construction_time_ms=6 max_construction_time_ms=7 avg_construction_time_ms=6.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.256KiB n=262144 logn=18 min_construction_time_ms=7 max_construction_time_ms=7 avg_construction_time_ms=7 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.1MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.1MiB n=1048576 logn=20 min_construction_time_ms=2 max_construction_time_ms=3 avg_construction_time_ms=2.4 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.1MiB n=1048576 logn=20 min_construction_time_ms=25 max_construction_time_ms=25 avg_construction_time_ms=25 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.1MiB n=1048576 logn=20 min_construction_time_ms=28 max_construction_time_ms=28 avg_construction_time_ms=28 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.4MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.4MiB n=4194304 logn=22 min_construction_time_ms=12 max_construction_time_ms=12 avg_construction_time_ms=12 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.4MiB n=4194304 logn=22 min_construction_time_ms=97 max_construction_time_ms=97 avg_construction_time_ms=97 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.4MiB n=4194304 logn=22 min_construction_time_ms=108 max_construction_time_ms=112 avg_construction_time_ms=110.6 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.8MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.8MiB n=8388608 logn=23 min_construction_time_ms=24 max_construction_time_ms=25 avg_construction_time_ms=24.2 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.8MiB n=8388608 logn=23 min_construction_time_ms=201 max_construction_time_ms=202 avg_construction_time_ms=201.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.8MiB n=8388608 logn=23 min_construction_time_ms=223 max_construction_time_ms=223 avg_construction_time_ms=223 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.16MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.16MiB n=16777216 logn=24 min_construction_time_ms=48 max_construction_time_ms=49 avg_construction_time_ms=48.4 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.16MiB n=16777216 logn=24 min_construction_time_ms=387 max_construction_time_ms=388 avg_construction_time_ms=387.6 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.16MiB n=16777216 logn=24 min_construction_time_ms=445 max_construction_time_ms=446 avg_construction_time_ms=445.8 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.32MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.32MiB n=33554432 logn=25 min_construction_time_ms=99 max_construction_time_ms=102 avg_construction_time_ms=100.2 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.32MiB n=33554432 logn=25 min_construction_time_ms=781 max_construction_time_ms=781 avg_construction_time_ms=781 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.32MiB n=33554432 logn=25 min_construction_time_ms=894 max_construction_time_ms=903 avg_construction_time_ms=897.6 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.64MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.64MiB n=67108864 logn=26 min_construction_time_ms=194 max_construction_time_ms=199 avg_construction_time_ms=196 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.64MiB n=67108864 logn=26 min_construction_time_ms=1562 max_construction_time_ms=1566 avg_construction_time_ms=1564.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.64MiB n=67108864 logn=26 min_construction_time_ms=1802 max_construction_time_ms=1810 avg_construction_time_ms=1806.8 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.128MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.128MiB n=134217728 logn=27 min_construction_time_ms=407 max_construction_time_ms=409 avg_construction_time_ms=408 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.128MiB n=134217728 logn=27 min_construction_time_ms=3151 max_construction_time_ms=3965 avg_construction_time_ms=3330.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.128MiB n=134217728 logn=27 min_construction_time_ms=3615 max_construction_time_ms=3628 avg_construction_time_ms=3620.6 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.256MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.256MiB n=268435456 logn=28 min_construction_time_ms=794 max_construction_time_ms=798 avg_construction_time_ms=796 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.256MiB n=268435456 logn=28 min_construction_time_ms=6303 max_construction_time_ms=6456 avg_construction_time_ms=6360.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.256MiB n=268435456 logn=28 min_construction_time_ms=7242 max_construction_time_ms=7256 avg_construction_time_ms=7248 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.512MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.512MiB n=536870912 logn=29 min_construction_time_ms=1591 max_construction_time_ms=1594 avg_construction_time_ms=1593.2 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.512MiB n=536870912 logn=29 min_construction_time_ms=12599 max_construction_time_ms=12880 avg_construction_time_ms=12737 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.512MiB n=536870912 logn=29 min_construction_time_ms=14488 max_construction_time_ms=14506 avg_construction_time_ms=14497.8 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.1GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.1GiB n=1073741824 logn=30 min_construction_time_ms=3186 max_construction_time_ms=3228 avg_construction_time_ms=3196.2 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.1GiB n=1073741824 logn=30 min_construction_time_ms=25411 max_construction_time_ms=27065 avg_construction_time_ms=25947.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.1GiB n=1073741824 logn=30 min_construction_time_ms=28947 max_construction_time_ms=28980 avg_construction_time_ms=28968.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.2GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.2GiB n=2147483648 logn=31 min_construction_time_ms=6413 max_construction_time_ms=6431 avg_construction_time_ms=6420.8 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.2GiB n=2147483648 logn=31 min_construction_time_ms=49894 max_construction_time_ms=50268 avg_construction_time_ms=50143.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.2GiB n=2147483648 logn=31 min_construction_time_ms=57708 max_construction_time_ms=57799 avg_construction_time_ms=57762.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.4GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.4GiB n=4294967296 logn=32 min_construction_time_ms=12907 max_construction_time_ms=12914 avg_construction_time_ms=12910.8 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.4GiB n=4294967296 logn=32 min_construction_time_ms=98436 max_construction_time_ms=101302 avg_construction_time_ms=99804.8 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.4GiB n=4294967296 logn=32 min_construction_time_ms=117867 max_construction_time_ms=117884 avg_construction_time_ms=117878 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/dna/dna.8GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/dna/dna.8GiB n=8589918208 logn=33 min_construction_time_ms=25738 max_construction_time_ms=25750 avg_construction_time_ms=25744.4 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/dna/dna.8GiB n=8589918208 logn=33 min_construction_time_ms=196024 max_construction_time_ms=197440 avg_construction_time_ms=196474 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/dna/dna.8GiB n=8589918208 logn=33 min_construction_time_ms=239517 max_construction_time_ms=239626 avg_construction_time_ms=239565 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.32KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.32KiB n=32768 logn=15 min_construction_time_ms=0 max_construction_time_ms=0 avg_construction_time_ms=0 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.32KiB n=32768 logn=15 min_construction_time_ms=5 max_construction_time_ms=6 avg_construction_time_ms=5.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.32KiB n=32768 logn=15 min_construction_time_ms=2 max_construction_time_ms=2 avg_construction_time_ms=2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.64KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.64KiB n=65536 logn=16 min_construction_time_ms=0 max_construction_time_ms=0 avg_construction_time_ms=0 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.64KiB n=65536 logn=16 min_construction_time_ms=7 max_construction_time_ms=31 avg_construction_time_ms=11.8 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.64KiB n=65536 logn=16 min_construction_time_ms=4 max_construction_time_ms=4 avg_construction_time_ms=4 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.128KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.128KiB n=131072 logn=17 min_construction_time_ms=1 max_construction_time_ms=1 avg_construction_time_ms=1 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.128KiB n=131072 logn=17 min_construction_time_ms=12 max_construction_time_ms=13 avg_construction_time_ms=12.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.128KiB n=131072 logn=17 min_construction_time_ms=7 max_construction_time_ms=7 avg_construction_time_ms=7 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.256KiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.256KiB n=262144 logn=18 min_construction_time_ms=3 max_construction_time_ms=3 avg_construction_time_ms=3 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.256KiB n=262144 logn=18 min_construction_time_ms=22 max_construction_time_ms=24 avg_construction_time_ms=22.8 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.256KiB n=262144 logn=18 min_construction_time_ms=14 max_construction_time_ms=14 avg_construction_time_ms=14 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.1MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.1MiB n=1048576 logn=20 min_construction_time_ms=14 max_construction_time_ms=14 avg_construction_time_ms=14 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.1MiB n=1048576 logn=20 min_construction_time_ms=82 max_construction_time_ms=83 avg_construction_time_ms=82.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.1MiB n=1048576 logn=20 min_construction_time_ms=54 max_construction_time_ms=54 avg_construction_time_ms=54 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.4MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.4MiB n=4194304 logn=22 min_construction_time_ms=58 max_construction_time_ms=59 avg_construction_time_ms=58.4 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.4MiB n=4194304 logn=22 min_construction_time_ms=342 max_construction_time_ms=344 avg_construction_time_ms=342.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.4MiB n=4194304 logn=22 min_construction_time_ms=213 max_construction_time_ms=214 avg_construction_time_ms=213.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.8MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.8MiB n=8388608 logn=23 min_construction_time_ms=117 max_construction_time_ms=120 avg_construction_time_ms=118.4 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.8MiB n=8388608 logn=23 min_construction_time_ms=682 max_construction_time_ms=1390 avg_construction_time_ms=829.8 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.8MiB n=8388608 logn=23 min_construction_time_ms=432 max_construction_time_ms=433 avg_construction_time_ms=432.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.16MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.16MiB n=16777216 logn=24 min_construction_time_ms=235 max_construction_time_ms=237 avg_construction_time_ms=236 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.16MiB n=16777216 logn=24 min_construction_time_ms=1422 max_construction_time_ms=2616 avg_construction_time_ms=1750.6 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.16MiB n=16777216 logn=24 min_construction_time_ms=863 max_construction_time_ms=865 avg_construction_time_ms=863.6 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.32MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.32MiB n=33554432 logn=25 min_construction_time_ms=471 max_construction_time_ms=473 avg_construction_time_ms=471.6 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.32MiB n=33554432 logn=25 min_construction_time_ms=3170 max_construction_time_ms=4797 avg_construction_time_ms=3709.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.32MiB n=33554432 logn=25 min_construction_time_ms=1709 max_construction_time_ms=1725 avg_construction_time_ms=1714.2 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.64MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.64MiB n=67108864 logn=26 min_construction_time_ms=943 max_construction_time_ms=949 avg_construction_time_ms=945.6 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.64MiB n=67108864 logn=26 min_construction_time_ms=6012 max_construction_time_ms=6520 avg_construction_time_ms=6166.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.64MiB n=67108864 logn=26 min_construction_time_ms=3471 max_construction_time_ms=3480 avg_construction_time_ms=3473.8 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.128MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.128MiB n=134217728 logn=27 min_construction_time_ms=1925 max_construction_time_ms=1929 avg_construction_time_ms=1927.6 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.128MiB n=134217728 logn=27 min_construction_time_ms=11733 max_construction_time_ms=12954 avg_construction_time_ms=12031 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.128MiB n=134217728 logn=27 min_construction_time_ms=6938 max_construction_time_ms=6953 avg_construction_time_ms=6947.4 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.256MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.256MiB n=268435456 logn=28 min_construction_time_ms=3857 max_construction_time_ms=3883 avg_construction_time_ms=3866.8 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.256MiB n=268435456 logn=28 min_construction_time_ms=23266 max_construction_time_ms=26506 avg_construction_time_ms=24078.4 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.256MiB n=268435456 logn=28 min_construction_time_ms=13776 max_construction_time_ms=13798 avg_construction_time_ms=13788.4 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.512MiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.512MiB n=536870912 logn=29 min_construction_time_ms=7722 max_construction_time_ms=7752 avg_construction_time_ms=7741.2 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.512MiB n=536870912 logn=29 min_construction_time_ms=47176 max_construction_time_ms=50877 avg_construction_time_ms=48320.2 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.512MiB n=536870912 logn=29 min_construction_time_ms=27521 max_construction_time_ms=27535 avg_construction_time_ms=27525.6 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.1GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.1GiB n=1073741824 logn=30 min_construction_time_ms=15495 max_construction_time_ms=15520 avg_construction_time_ms=15509.6 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.1GiB n=1073741824 logn=30 min_construction_time_ms=82844 max_construction_time_ms=104224 avg_construction_time_ms=98132.6 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.1GiB n=1073741824 logn=30 min_construction_time_ms=55362 max_construction_time_ms=55561 avg_construction_time_ms=55437 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.2GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.2GiB n=2147483648 logn=31 min_construction_time_ms=31018 max_construction_time_ms=31040 avg_construction_time_ms=31031 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.2GiB n=2147483648 logn=31 min_construction_time_ms=189268 max_construction_time_ms=208353 avg_construction_time_ms=199306 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.2GiB n=2147483648 logn=31 min_construction_time_ms=110392 max_construction_time_ms=110476 avg_construction_time_ms=110433 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.4GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.4GiB n=4294967296 logn=32 min_construction_time_ms=62095 max_construction_time_ms=62135 avg_construction_time_ms=62109.6 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.4GiB n=4294967296 logn=32 min_construction_time_ms=385218 max_construction_time_ms=441897 avg_construction_time_ms=406175 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.4GiB n=4294967296 logn=32 min_construction_time_ms=220958 max_construction_time_ms=221766 avg_construction_time_ms=221168 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
+*** Setting up the environment...
+*** WARNING: this script implement NUMA support, please consider checking your NUMA architecture before using it!
+*** Allow access to perf events
+*** Setting the CPU governor to 'performance'
+*** Disable turbo mode (short-term higher freq)
+0-15
+*** Now running: ./../build/wavelet_tree_construction_benchmark -r 5 /data1/Texts/qwt_tests/commoncrawl/cc.8GiB...
+---
+RESULT algo=pasta_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.8GiB n=8589934592 logn=33 min_construction_time_ms=124161 max_construction_time_ms=124385 avg_construction_time_ms=124262 n_runs=5
+RESULT algo=sdsl_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.8GiB n=8589934592 logn=33 min_construction_time_ms=596724 max_construction_time_ms=621487 avg_construction_time_ms=610961 n_runs=5
+RESULT algo=sdsl_hwt_construction input=/data1/Texts/qwt_tests/commoncrawl/cc.8GiB n=8589934592 logn=33 min_construction_time_ms=446123 max_construction_time_ms=447124 avg_construction_time_ms=446362 n_runs=5
+---
+*** Restoring previous settings
+*** DONE!
