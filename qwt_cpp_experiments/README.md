@@ -12,7 +12,9 @@ make -j
 ```
 
 This will build the project.
-Then you have four binaries:
+
+## Binaries
+These are the binaries used to obtain the results:
 
 1. `bit_vector_benchmark` generates the results for pasta_bv and sdsl_bv in Figure 5.
 3. `wavelet_tree_benchmark` generates the results for pasta_wm and sdsl_wm in Figure 3, 5, and 6.
