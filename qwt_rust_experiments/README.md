@@ -22,3 +22,12 @@ on our machine, while the bitvector performance benchmarks has been run, from th
 ./run_perf.sh ../target/release/perf_rs_qvector vesuvio noturbo
 ```
 
+## Scripts
+
+All the scripts can be found in the `scripts/` folder. The scripts are the following:
+
+- `experiment_latency.sh` can be used to run the latency experiments
+- `experiment_bv.sh` can be used to run the benchmarks on our bitvector and quad vector
+- `experiment_construction.sh` can be used to run the benchmarks on our wavelet trees construction time
+
+All the scripts have been run using `run_perf.sh` for better stability
